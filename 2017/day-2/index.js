@@ -10,7 +10,7 @@ const checksum = input => {
 };
 
 console.log('-- Part 1 --');
-assert(checksum)(['5 1 9 5', '7 5 3', '2 4 6 8'], 18);
+assert(checksum(['5 1 9 5', '7 5 3', '2 4 6 8']), 18);
 console.log('answer', checksum(input));
 
 const divisible = input => {
@@ -38,5 +38,5 @@ const divisible = input => {
 }
 
 console.log('-- Part 2 --');
-assert(divisible)(['5 9 2 8', '9 4 7 3', '3 8 6 5'], 9);
+assert(divisible(['5 9 2 8', '9 4 7 3', '3 8 6 5']), 9);
 console.log('answer', divisible(input));

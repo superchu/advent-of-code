@@ -11,10 +11,10 @@ const part1 = input => {
 }
 
 console.log('-- Part 1 --');
-assert(part1)(1122, 3);
-assert(part1)(1111, 4);
-assert(part1)(1234, 0);
-assert(part1)(91212129, 9);
+assert(part1(1122), 3);
+assert(part1(1111), 4);
+assert(part1(1234), 0);
+assert(part1(91212129), 9);
 console.log('answer', part1(input));
 
 const part2 = input => {
@@ -27,9 +27,9 @@ const part2 = input => {
 };
 
 console.log('\n-- Part 2 --');
-assert(part2)(1212, 6);
-assert(part2)(1221, 0);
-assert(part2)(123425, 4);
-assert(part2)(123123, 12);
-assert(part2)(12131415, 4);
+assert(part2(1212), 6);
+assert(part2(1221), 0);
+assert(part2(123425), 4);
+assert(part2(123123), 12);
+assert(part2(12131415), 4);
 console.log('answer', part2(input))
