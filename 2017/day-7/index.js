@@ -1,5 +1,5 @@
 const { getInput } = require('../utils.js');
-const input = getInput('./input.txt').split(/\n/g);;
+const input = getInput('./input.txt').split(/\n/g);
 
 const toGraph = input => {
   const graph = {};
